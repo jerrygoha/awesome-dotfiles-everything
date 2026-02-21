@@ -25,6 +25,7 @@
 - [快速开始](#快速开始)
 - [核心原则](#核心原则)
 - [项目启动自动化](#项目启动自动化)
+- [推荐策略：每个项目独立克隆](#推荐策略每个项目独立克隆)
 - [Superpowers 工作流](#superpowers-工作流)
 - [Agent Team 模式](#agent-team-模式)
 - [OpenClaw + Discord Ops（可选）](#openclaw--discord-ops可选)
@@ -89,6 +90,21 @@ bash scripts/new_project_bootstrap.sh /path/to/new-project
 
 然后把以下文件交给 AI：
 - `.bootstrap/PROJECT_BOOTSTRAP_PROMPT.md`
+
+---
+
+## 推荐策略：每个项目独立克隆
+
+为保证可复现性，推荐在每个项目中固定克隆 baseline：
+
+```bash
+bash scripts/new_project_bootstrap.sh /path/to/new-project --mode clone --ref v0.1.0
+```
+
+该命令会创建：
+- `/path/to/new-project/.tooling/awesome-dotfiles-everything`
+- `/path/to/new-project/.bootstrap/*`
+- `/path/to/new-project/memory/*`
 
 ---
 

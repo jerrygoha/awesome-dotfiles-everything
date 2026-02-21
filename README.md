@@ -25,6 +25,7 @@
 - [Quick Start](#quick-start)
 - [Core Principles](#core-principles)
 - [Project Kickoff Automation](#project-kickoff-automation)
+- [Recommended Strategy: Per-project Clone](#recommended-strategy-per-project-clone)
 - [Superpowers Workflow](#superpowers-workflow)
 - [Agent Team Mode](#agent-team-mode)
 - [OpenClaw + Discord Ops (Optional)](#openclaw--discord-ops-optional)
@@ -88,6 +89,21 @@ bash scripts/new_project_bootstrap.sh /path/to/new-project
 
 Then provide this file to Claude/Codex:
 - `.bootstrap/PROJECT_BOOTSTRAP_PROMPT.md`
+
+---
+
+## Recommended Strategy: Per-project Clone
+
+For stronger reproducibility, clone a pinned baseline into each project:
+
+```bash
+bash scripts/new_project_bootstrap.sh /path/to/new-project --mode clone --ref v0.1.0
+```
+
+This creates:
+- `/path/to/new-project/.tooling/awesome-dotfiles-everything`
+- `/path/to/new-project/.bootstrap/*`
+- `/path/to/new-project/memory/*`
 
 ---
 

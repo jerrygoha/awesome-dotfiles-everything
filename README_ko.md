@@ -25,6 +25,7 @@
 - [빠른 시작](#빠른-시작)
 - [핵심 원칙](#핵심-원칙)
 - [프로젝트 킥오프 자동화](#프로젝트-킥오프-자동화)
+- [권장 전략: 프로젝트별 클론](#권장-전략-프로젝트별-클론)
 - [Superpowers 워크플로우](#superpowers-워크플로우)
 - [Agent Team 모드](#agent-team-모드)
 - [OpenClaw + Discord 운영(선택)](#openclaw--discord-운영선택)
@@ -89,6 +90,21 @@ bash scripts/new_project_bootstrap.sh /path/to/new-project
 
 그 다음 AI에게 아래 파일 전달:
 - `.bootstrap/PROJECT_BOOTSTRAP_PROMPT.md`
+
+---
+
+## 권장 전략: 프로젝트별 클론
+
+재현성을 높이려면 프로젝트마다 baseline을 고정 클론해서 사용해:
+
+```bash
+bash scripts/new_project_bootstrap.sh /path/to/new-project --mode clone --ref v0.1.0
+```
+
+이 명령으로 생성됨:
+- `/path/to/new-project/.tooling/awesome-dotfiles-everything`
+- `/path/to/new-project/.bootstrap/*`
+- `/path/to/new-project/memory/*`
 
 ---
 

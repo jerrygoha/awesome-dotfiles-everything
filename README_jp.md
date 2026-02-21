@@ -25,6 +25,7 @@
 - [Quick Start](#quick-start)
 - [コア原則](#コア原則)
 - [プロジェクト開始の自動化](#プロジェクト開始の自動化)
+- [推奨戦略: プロジェクトごとにクローン](#推奨戦略-プロジェクトごとにクローン)
 - [Superpowers ワークフロー](#superpowers-ワークフロー)
 - [Agent Team モード](#agent-team-モード)
 - [OpenClaw + Discord Ops（任意）](#openclaw--discord-ops任意)
@@ -89,6 +90,21 @@ bash scripts/new_project_bootstrap.sh /path/to/new-project
 
 その後、次のファイルを AI に渡します:
 - `.bootstrap/PROJECT_BOOTSTRAP_PROMPT.md`
+
+---
+
+## 推奨戦略: プロジェクトごとにクローン
+
+再現性を高めるため、各プロジェクトに baseline を固定クローンする運用を推奨します。
+
+```bash
+bash scripts/new_project_bootstrap.sh /path/to/new-project --mode clone --ref v0.1.0
+```
+
+このコマンドで生成されるもの:
+- `/path/to/new-project/.tooling/awesome-dotfiles-everything`
+- `/path/to/new-project/.bootstrap/*`
+- `/path/to/new-project/memory/*`
 
 ---
 

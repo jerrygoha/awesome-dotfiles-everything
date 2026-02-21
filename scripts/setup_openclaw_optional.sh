@@ -8,11 +8,11 @@ TEAMDIR="$WORKSPACE/team"
 mkdir -p "$TEAMDIR" "$TEAMDIR/automation" "$TEAMDIR/memory" "$TEAMDIR/CONVERSATIONS/discord"
 cp -rn "$ROOT/templates/openclaw/." "$TEAMDIR/" 2>/dev/null || true
 
-# Ensure core memory files exist
-: > "$TEAMDIR/memory/events.jsonl"
-: > "$TEAMDIR/memory/decisions.md"
-: > "$TEAMDIR/memory/tasks.md"
-: > "$TEAMDIR/memory/meetings.md"
+# Ensure core memory files exist (do not truncate existing history)
+touch "$TEAMDIR/memory/events.jsonl"
+touch "$TEAMDIR/memory/decisions.md"
+touch "$TEAMDIR/memory/tasks.md"
+touch "$TEAMDIR/memory/meetings.md"
 
 # Seed automation templates (do not overwrite user files)
 if [ ! -f "$TEAMDIR/automation/discord-channel-map.json" ] && [ -f "$TEAMDIR/automation/discord-channel-map.example.json" ]; then

@@ -6,6 +6,6 @@ Copy these into `~/.openclaw/workspace/team` when OpenClaw exists.
 - `memory/decisions.md`
 - `memory/tasks.md`
 - `memory/meetings.md`
-- `memory/events.jsonl`
+- `memory/events.jsonl` (created by `scripts/setup_openclaw_optional.sh`)
 - `automation/discord-channel-map.example.json`
 - `automation/discord-ops.env.example`
