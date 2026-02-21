@@ -32,6 +32,7 @@ bash scripts/setup.sh
 - `docs/AGENT_TEAMS_MAPPING.md`
 - `docs/MEMORY_PERSISTENCE.md`
 - `docs/OPENCLAW_OPTIONAL.md`
+- `docs/OPENCLAW_DISCORD_OPS.md`
 - `docs/RALPH_LOOP_POLICY.md`
 
 ## 新規プロジェクト開始

@@ -32,7 +32,7 @@ bash scripts/setup.sh
 새 프로젝트에서 Claude Code/Codex에 다음처럼 지시하세요.
 
 ```text
-https://github.com/<your-username>/awesome-dotfiles-everything 기준으로 세팅해줘.
+https://github.com/jerrygoha/awesome-dotfiles-everything 기준으로 세팅해줘.
 templates/PROJECT_BOOTSTRAP_PROMPT.md를 그대로 따라.
 ```
 
@@ -53,6 +53,7 @@ templates/PROJECT_BOOTSTRAP_PROMPT.md를 그대로 따라.
 - Agent Team 매핑: `docs/AGENT_TEAMS_MAPPING.md`
 - 메모리 영속화: `docs/MEMORY_PERSISTENCE.md`
 - OpenClaw 선택 연동: `docs/OPENCLAW_OPTIONAL.md`
+- OpenClaw Discord 운영: `docs/OPENCLAW_DISCORD_OPS.md`
 - Ralph Loop 정책: `docs/RALPH_LOOP_POLICY.md`
 
 ---

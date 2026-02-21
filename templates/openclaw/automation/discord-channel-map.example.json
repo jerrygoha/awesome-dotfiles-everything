@@ -1,0 +1,7 @@
+{
+  "channels": [
+    { "name": "ceo-room", "id": "PUT_CHANNEL_ID_HERE" },
+    { "name": "ops-war-room", "id": "PUT_CHANNEL_ID_HERE" },
+    { "name": "daily-standup", "id": "PUT_CHANNEL_ID_HERE" }
+  ]
+}
