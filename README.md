@@ -195,6 +195,12 @@ awesome-dotfiles-everything/
 
 ---
 
+## Release Notes
+
+- `docs/releases/v0.1.0.md`
+
+---
+
 ## Updating This Baseline
 
 ```bash
