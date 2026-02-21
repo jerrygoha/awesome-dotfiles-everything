@@ -44,10 +44,6 @@
 - OpenClaw 선택 연동(스케줄러, Discord 운영 로그, 메모리 동기화)
 - superpowers 권장 흐름(`research + plan` → 새 세션 → `/subagent-driven-development`)
 
-디자인 참고:
-- Claw-Empire README 스타일: https://github.com/GreenSheep01201/claw-empire/blob/main/README.md
-- Holman dotfiles 구조: https://github.com/holman/dotfiles/tree/master
-
 ---
 
 ## AI로 설치하기

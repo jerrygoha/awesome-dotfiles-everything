@@ -44,10 +44,6 @@
 - OpenClaw 任意連携（スケジューラ、Discord 運用ログ、メモリ同期）
 - superpowers 推奨フロー（`research + plan` → 新規セッション → `/subagent-driven-development`）
 
-参考:
-- Claw-Empire README スタイル: https://github.com/GreenSheep01201/claw-empire/blob/main/README.md
-- Holman dotfiles: https://github.com/holman/dotfiles/tree/master
-
 ---
 
 ## AIでインストール

@@ -43,10 +43,6 @@ A starter kit for launching projects with the same AI-ready baseline:
 - optional OpenClaw integrations (scheduler, Discord ops logging, memory sync)
 - superpowers-recommended workflow (`research + plan` → new session → `/subagent-driven-development`)
 
-Design references:
-- Claw-Empire README style: https://github.com/GreenSheep01201/claw-empire/blob/main/README.md
-- Holman dotfiles structure: https://github.com/holman/dotfiles/tree/master
-
 ---
 
 ## Install with AI

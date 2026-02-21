@@ -44,10 +44,6 @@
 - OpenClaw 可选集成（调度、Discord 运营日志、记忆同步）
 - 推荐 superpowers 流程（`research + plan` → 新会话 → `/subagent-driven-development`）
 
-参考：
-- Claw-Empire README 风格: https://github.com/GreenSheep01201/claw-empire/blob/main/README.md
-- Holman dotfiles: https://github.com/holman/dotfiles/tree/master
-
 ---
 
 ## 用 AI 安装
