@@ -38,7 +38,7 @@ bash scripts/setup.sh
 Then in a new project, tell Claude Code:
 
 ```text
-Set up this project using the baseline from https://github.com/<your-username>/awesome-dotfiles-everything .
+Set up this project using the baseline from https://github.com/jerrygoha/awesome-dotfiles-everything .
 Follow templates/PROJECT_BOOTSTRAP_PROMPT.md exactly.
 ```
 

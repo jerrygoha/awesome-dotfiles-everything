@@ -1,7 +1,7 @@
 # PROJECT BOOTSTRAP PROMPT (for Claude Code/Codex)
 
 Use this project baseline from:
-https://github.com/<your-username>/awesome-dotfiles-everything
+https://github.com/jerrygoha/awesome-dotfiles-everything
 
 ## Instructions
 1. Initialize project with dotfiles topics from `dotfiles/`.
