@@ -210,6 +210,7 @@ awesome-dotfiles-everything/
 
 ## 发布说明
 
+- `docs/releases/v0.1.1.md`
 - `docs/releases/v0.1.0.md`
 
 ---

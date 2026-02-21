@@ -209,6 +209,7 @@ awesome-dotfiles-everything/
 
 ## Release Notes
 
+- `docs/releases/v0.1.1.md`
 - `docs/releases/v0.1.0.md`
 
 ---
