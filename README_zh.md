@@ -22,7 +22,7 @@
 ## 快速开始
 
 ```bash
-git clone https://github.com/<your-username>/awesome-dotfiles-everything.git
+git clone https://github.com/jerrygoha/awesome-dotfiles-everything.git
 cd awesome-dotfiles-everything
 bash scripts/setup.sh
 ```

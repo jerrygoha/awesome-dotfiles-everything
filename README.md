@@ -30,7 +30,7 @@ A starter kit that lets you begin any project with the same AI-ready baseline:
 ## Quick Start
 
 ```bash
-git clone https://github.com/<your-username>/awesome-dotfiles-everything.git
+git clone https://github.com/jerrygoha/awesome-dotfiles-everything.git
 cd awesome-dotfiles-everything
 bash scripts/setup.sh
 ```
